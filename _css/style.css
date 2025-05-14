@@ -137,9 +137,9 @@ h3 {
 .navlateral header h3 {
     margin-bottom: 16px;
 }
-/* faz a lista ficar mais poro ladinho */
+
 .lista {
-    padding-left: 32px;
+    padding-left: 32px; /* faz a lista ficar mais poro ladinho */
 }
 
 table, th, td {
@@ -155,8 +155,7 @@ table, th, td {
 
 .footer {
     background: #111a10;
-    height: 300px;
-    padding: 32px 0px 16px;
+    padding: 32px 0px 50px 0;
     font-family: "Poppins";
 }
 
@@ -164,7 +163,7 @@ table, th, td {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 0 350px;
+    margin: 0 0 0 332px;
     padding: 0 20px;
 }
 
@@ -183,8 +182,9 @@ table, th, td {
     padding-bottom: 5px;
 }
 
-.footer-section a {
+.footer-section a, .footer-section p {
     color: #cacaca;
+    font-size: 14px;
 }
 
 .footer-section a:hover {
