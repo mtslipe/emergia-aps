@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: 0.3s;
 }
 
 body {
@@ -51,7 +52,7 @@ nav {
 }
 
 .cover {
-    width: 100%;
+    width: 98%;
     height: 300px;
     object-fit: cover;
     opacity: 100%;
