@@ -387,6 +387,10 @@ table, th, td {
         min-width: 320px;
         font-size: 12px;
     }
+    
+    .img {
+        display: none;
+    }
 }
 
 .footer2 {
@@ -402,5 +406,25 @@ table, th, td {
     gap: 10px;
 }
 
+.img-wrapper {
+    display: flex;
+    gap: 20px;
+}
 
+.img {
+    height: 300px;
+    object-fit: cover;
+    scale: 100%;
+    margin: 20px;
+    scale: 105%;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 100%;
+    scale: 100%;
+    margin-bottom: 20px;
+}
 /* index */
